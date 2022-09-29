@@ -6,7 +6,7 @@
   <link href="https://tailante.github.io/atom.xml" rel="self"/>
   
   <link href="https://tailante.github.io/"/>
-  <updated>2022-09-29T03:32:08.265Z</updated>
+  <updated>2022-09-29T15:12:06.040Z</updated>
   <id>https://tailante.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于搭建本页面</title>
+    <link href="https://tailante.github.io/posts/db1f.html"/>
+    <id>https://tailante.github.io/posts/db1f.html</id>
+    <published>2022-09-29T13:17:54.000Z</published>
+    <updated>2022-09-29T15:12:06.040Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="记录博客的第一次"><a href="#记录博客的第一次" class="headerlink" title="记录博客的第一次"></a>记录博客的第一次</h1><h2 id="小白的懵懂"><a href="#小白的懵懂" class="headerlink" title="小白的懵懂"></a>小白的懵懂</h2><p>对于与一个编程小白来说，这次搭建博客真的是<span class='p red'>太不容易了</span>，以下便是这篇博客出生的艰辛历程。</p><p>首先，我去百度搜索了 <strong>hexo 的官方文档</strong>，来进行安装。在全局安装完以后，下一步就是创建，然而我呆头呆脑的在一个 <wavy>非空的文件夹</wavy> 里进行创建，果不其然报错了，就这个错误我记得还浪费掉许多时间去解决它 QAQ。。<span class='p cyan'>(后来才发现需要一个空文件夹)</span></p><p>在创建完一个 hexo 项目以后，就进行配置，什么主标题啊，副标题啊，关键字啊，都配置好了，又学习了一些常用命令，然后就发现不对劲，就感觉这个默认主题有点丑啊哈哈，<span class='p red'>就打算换一个主题</span>，由于我的疏忽，我并<span class='p red'>没有看到</span> hexo 官方文档中有主题这个选项，但是我也够聪明，直接去中国知名的哔哩哔哩大学去寻找如何为 hexo 更换主体，我翻到了一位<span class='p cyan'>UP 主的个人博客搭建教程，讲道理，视频真的是保姆级别</span> ，奈何我这马马虎虎，活生生把一天的工作量硬是拖到两天。</p><p>由于我本人是自学前端的嘛，所以hexo所依赖的Git与Node.js我平时用的挺多的，所以UP主有关这些<wavy>依赖的配置</wavy>我都是快进，直接跳到了配置主题部分，就是这个操作把我坑惨了。。</p><h2 id="自负的开始"><a href="#自负的开始" class="headerlink" title="自负的开始"></a>自负的开始</h2><p>首先我去 <strong>github</strong> 上将主题代码拉到本地，然后在自己 <strong>hexo 项目</strong>的 <strong>_config.yml</strong> 上将 <strong>theme</strong> 修改为 <strong>butterfly</strong> ，然后运行，然后就报错啦哈哈，因为项目文件夹的名字是 <strong>hexo-theme-butterfly</strong><span class='p red'>(讲道理从这开始已经就不对劲了)</span>,于是乎我又把 <strong>theme</strong> 修改为 <strong>hexo-theme-butterfly</strong>，再跑一变，这次没有报错，本地可以运行，于是我跟着视频就继续配置功能，配置到本地搜索功能的时候，我就发现<span class='p red'>搜索标签根本没有渲染到html上</span>，屏幕里根本就没有这个搜索按钮，但是我以为这可能是服务器还没解析好，于是继续跟着视频配置，直到后来<span class='p red'>连音乐播放器都没有显示</span>，我就感觉不对劲了，然而我以为靠我自己可以解决，但浪费了一下午还是没能解决，十分无奈找到UP主，请它出山帮忙，内时候我还没部署到<strong>github</strong>，然后就立刻建立仓库把这个项目部署上去了，好家伙部署以后更迷糊，连css样式都没了,UP主看完都想刀了我，问我有没有<span class='p red'>好好看视频</span>，后来我又从头到尾仔细看了一边，才发现我快进的地方都是关键的地方QAQ</p><h2 id="好好改造，重新做人"><a href="#好好改造，重新做人" class="headerlink" title="好好改造，重新做人"></a>好好改造，重新做人</h2><div class="tip warning"><p>第一，我从github上拉下来的代码，是测试版的，所以文件名才显示hexo-theme-butterfly，如果直接复制UP主博客里的代码下载以后的主题文件就是butterfly正式版。</p></div><div class="tip warning"><p>第二，在github建立仓库时，我的仓库名是瞎起的，正确的应该是自己的github用户名.github.io。</p></div><div class="tip warning"><p>第三，hexo有严格的格式要求，空格和缩进哪怕多一个少一个都可能报错。</p></div><div class="tip warning"><p>第四，要好好看文档，其实许多答案都在文档里，所有的东西只有自己配置一遍才懂——安知鱼。</p></div><h2 id="由衷的感谢"><a href="#由衷的感谢" class="headerlink" title="由衷的感谢"></a>由衷的感谢</h2><p>最后，十分感谢安知鱼UP主为我博客的建设提出的悉心指导，下面是大佬的博客，欢迎去那里取经<br><div class="tip error"><p><a href="https://anzhiy.cn/">https://anzhiy.cn/</a></p></div></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;记录博客的第一次&quot;&gt;&lt;a href=&quot;#记录博客的第一次&quot; class=&quot;headerlink&quot; title=&quot;记录博客的第一次&quot;&gt;&lt;/a&gt;记录博客的第一次&lt;/h1&gt;&lt;h2 id=&quot;小白的懵懂&quot;&gt;&lt;a href=&quot;#小白的懵懂&quot; class=&quot;headerlink</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
