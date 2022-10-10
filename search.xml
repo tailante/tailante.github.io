@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>JS真的太随便了</title>
+      <link href="/posts/7f8a.html"/>
+      <url>/posts/7f8a.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="从未见过如此自由的语言"><a href="#从未见过如此自由的语言" class="headerlink" title="从未见过如此自由的语言"></a>从未见过如此自由的语言</h1><h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><div class="tip home"><ol><li>JavaScript数组中的默认存储值是undefined，其它编程语言数组的默认存储值是0或者是垃圾数据</li></ol></div><div class="tip home"><ol><li>与其它的编程语言不同，JavaScript可以访问数组中不存在的索引，会返回undefined，而其它的编程语言会报错或返回垃圾数据</li></ol></div><div class="tip home"><ol><li>JavaScript可以存储不同类型的数据，而其它的编程语言只能存储一种数据类型的数据</li></ol></div><div class="tip home"><ol><li>当JavaScript中数组的存储空间不够用时，它会自动扩容，而其它的语言数组的大小是固定的，一旦定义了，就无法改变</li></ol></div><div class="tip home"><ol><li>JavaScript中分配给数组的存储空间是不连续的，而其他编程语言中分配给数组的存储空间是连续的</li></ol></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>移动端项目总结（八）</title>
       <link href="/posts/72ee.html"/>
       <url>/posts/72ee.html</url>
@@ -138,6 +151,17 @@
     
     <entry>
       <title></title>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
+      
+        <content type="html"><![CDATA[var now=new Date;function createtime(){var grt=new Date("09/29/2022 00:00:00");now.setTime(now.getTime()+250);var days=(now-grt)/1e3/60/60/24,dnum=Math.floor(days),hours=(now-grt)/1e3/60/60-24*dnum,hnum=Math.floor(hours);1==String(hnum).length&&(hnum="0"+hnum);var minutes=(now-grt)/1e3/60-1440*dnum-60*hnum,mnum=Math.floor(minutes);1==String(mnum).length&&(mnum="0"+mnum);var seconds=(now-grt)/1e3-86400*dnum-3600*hnum-60*mnum,snum=Math.round(seconds);1==String(snum).length&&(snum="0"+snum);let currentTimeHtml="";currentTimeHtml=hnum<18&&hnum>=9?`<span class='textTip'> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`:`<span class='textTip'> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=currentTimeHtml)}setInterval(()=>{createtime()},250);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/css/custom.css"/>
       <url>/css/custom.css</url>
       
@@ -153,17 +177,6 @@
       <url>/manifest.json</url>
       
         <content type="html"><![CDATA[{"name":"接化发`Blog","short_name":"接化发","theme_color":"#425aef","background_color":"#425aef","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"/img/siteicon/16.png","sizes":"16x16","type":"image/png"},{"src":"/img/siteicon/32.png","sizes":"32x32","type":"image/png"},{"src":"/img/siteicon/48.png","sizes":"48x48","type":"image/png"},{"src":"/img/siteicon/64.png","sizes":"64x64","type":"image/png"},{"src":"/img/siteicon/128.png","sizes":"128x128","type":"image/png"},{"src":"/img/siteicon/144.png","sizes":"144x144","type":"image/png"},{"src":"/img/siteicon/512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
-      
-        <content type="html"><![CDATA[var now=new Date;function createtime(){var grt=new Date("09/29/2022 00:00:00");now.setTime(now.getTime()+250);var days=(now-grt)/1e3/60/60/24,dnum=Math.floor(days),hours=(now-grt)/1e3/60/60-24*dnum,hnum=Math.floor(hours);1==String(hnum).length&&(hnum="0"+hnum);var minutes=(now-grt)/1e3/60-1440*dnum-60*hnum,mnum=Math.floor(minutes);1==String(mnum).length&&(mnum="0"+mnum);var seconds=(now-grt)/1e3-86400*dnum-3600*hnum-60*mnum,snum=Math.round(seconds);1==String(snum).length&&(snum="0"+snum);let currentTimeHtml="";currentTimeHtml=hnum<18&&hnum>=9?`<span class='textTip'> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`:`<span class='textTip'> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=currentTimeHtml)}setInterval(()=>{createtime()},250);]]></content>
       
     </entry>
     

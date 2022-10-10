@@ -6,7 +6,7 @@
   <link href="https://tailante.github.io/atom.xml" rel="self"/>
   
   <link href="https://tailante.github.io/"/>
-  <updated>2022-10-04T13:53:45.232Z</updated>
+  <updated>2022-10-10T14:46:39.640Z</updated>
   <id>https://tailante.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JS真的太随便了</title>
+    <link href="https://tailante.github.io/posts/7f8a.html"/>
+    <id>https://tailante.github.io/posts/7f8a.html</id>
+    <published>2022-10-10T14:41:32.000Z</published>
+    <updated>2022-10-10T14:46:39.640Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="从未见过如此自由的语言"><a href="#从未见过如此自由的语言" class="headerlink" title="从未见过如此自由的语言"></a>从未见过如此自由的语言</h1><h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><div class="tip home"><ol><li>JavaScript数组中的默认存储值是undefined，其它编程语言数组的默认存储值是0或者是垃圾数据</li></ol></div><div class="tip home"><ol><li>与其它的编程语言不同，JavaScript可以访问数组中不存在的索引，会返回undefined，而其它的编程语言会报错或返回垃圾数据</li></ol></div><div class="tip home"><ol><li>JavaScript可以存储不同类型的数据，而其它的编程语言只能存储一种数据类型的数据</li></ol></div><div class="tip home"><ol><li>当JavaScript中数组的存储空间不够用时，它会自动扩容，而其它的语言数组的大小是固定的，一旦定义了，就无法改变</li></ol></div><div class="tip home"><ol><li>JavaScript中分配给数组的存储空间是不连续的，而其他编程语言中分配给数组的存储空间是连续的</li></ol></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;从未见过如此自由的语言&quot;&gt;&lt;a href=&quot;#从未见过如此自由的语言&quot; class=&quot;headerlink&quot; title=&quot;从未见过如此自由的语言&quot;&gt;&lt;/a&gt;从未见过如此自由的语言&lt;/h1&gt;&lt;h2 id=&quot;数组&quot;&gt;&lt;a href=&quot;#数组&quot; class=&quot;head</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>移动端项目总结（八）</title>
